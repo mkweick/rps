@@ -20,9 +20,9 @@ begin
   puts "SHOOT! (R/P/S):"
 
   # Get random computer choice
-  computer  = OPTIONS.sample
+  computer = OPTIONS.sample
   # Get user choice
-  player    = gets.chomp.upcase
+  player = gets.chomp.upcase
 
   # Verify user selection
   while !OPTIONS.include?(player)
